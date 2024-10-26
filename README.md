@@ -42,10 +42,10 @@ User Interface: Shows LLM insights and assigned HCP details to agents.
 Project Structure
 
 intelligent-sales-agent/
-├── data/                   # Data files used in the project
+├── 1_Datasets_Generation/                   # Data files used in the project
 ├── app.py                  # Main application script
-├── model/                  # Composite score model and ML pipeline scripts
-├── llm/                    # Scripts for integrating and generating LLM-based summaries
+├── 2_Intelligent_HCP_Assignment/                  # Composite score model and ML pipeline scripts
+├── 3_Personalized_Briefing_Pack/                    # Scripts for integrating and generating LLM-based summaries
 ├── README.md               # Project documentation
 └── results/                # Results and outputs of the model
 Setup and Installation
