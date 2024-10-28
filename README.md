@@ -48,44 +48,5 @@ intelligent-sales-agent/
 ├── 3_Personalized_Briefing_Pack/                    # Scripts for integrating and generating LLM-based summaries
 ├── README.md               # Project documentation
 └── results/                # Results and outputs of the model
-Setup and Installation
-Clone the Repository
 
-bash
-Copy code
-git clone https://github.com/yourusername/intelligent-sales-agent.git
-cd intelligent-sales-agent
-Install Requirements
-
-bash
-Copy code
-pip install -r requirements.txt
-Set Up Databricks CLI for Deployment
-
-Ensure you have a valid access token and configure Databricks CLI:
-bash
-Copy code
-databricks configure --token
-Usage
-Load agent and HCP data, and run the composite score calculation model to assign agents.
-Generate LLM Summaries
-
-Run the llm scripts to generate contextual insights for each agent's assigned HCPs.
-Deploy and Access Application
-
-Use Databricks CLI to deploy the app and sync your workspace:
-bash
-Copy code
-databricks workspace import_dir . /path/to/your-workspace
-Agents can then log in to view their assigned HCPs with LLM-generated insights.
-Results
-The Intelligent Sales Agent Assignment project has shown improved agent-HCP alignment by:
-
-Prioritizing agents with higher performance and closer proximity.
-Providing actionable insights and tailored information for each agent, leading to increased engagement efficiency.
-Future Enhancements
-Dynamic Weight Adjustment: Allow weight factors in the composite score calculation to be adjusted based on feedback and performance metrics.
-Extended LLM Insights: Integrate additional context from recent market trends and specific HCP preferences.
-Real-Time Monitoring: Add real-time updates on agent assignments and HCP interactions to improve responsiveness.
-License
 This project is licensed under the MIT License.
